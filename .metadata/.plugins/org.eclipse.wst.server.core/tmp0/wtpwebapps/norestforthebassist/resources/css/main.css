@@ -1,0 +1,244 @@
+@charset "UTF-8";
+body
+{
+    font-family: tahoma, helvetica, arial, sans-serif;
+    background-color: #f0f5f5;
+}
+table, tr, td
+{
+    font-size: .95em;
+    border: 3px groove;
+    padding: 5px;
+    background-color: #d1e0e0;
+}
+h1
+{
+	color: #293d3d;
+}
+h2
+{
+	font-size: 2em;
+	text-align: center;
+}
+p
+{
+	font-size: 1.2em;
+}
+.tdbold {
+	font-weight: bold;
+}
+.imgscalebassscore {
+  width:100%;
+  opacity: 0.5;
+}
+.scalebassscore {
+  text-align: center;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left_arrow {
+	padding: 5px;
+}
+
+.right_arrow {
+	padding: 5px;
+}
+
+.scalebassscore .e_string_position_1 {
+	position: absolute;
+    bottom: 16px;
+    left: 60px;
+}
+
+.scalebassscore .e_string_position_2 {
+	position: absolute;
+    bottom: 16px;
+    left: 100px;
+}
+
+.scalebassscore .e_string_position_3 {
+	position: absolute;
+    bottom: 16px;
+    left: 140px;
+}
+
+.scalebassscore .a_string_position_1 {
+	position: absolute;
+    bottom: 41px;
+    left: 60px;
+}
+
+.scalebassscore .a_string_position_2 {
+	position: absolute;
+    bottom: 41px;
+    left: 100px;
+}
+
+.scalebassscore .a_string_position_3 {
+	position: absolute;
+    bottom: 41px;
+    left: 140px;
+}
+
+.scalebassscore .a_string_position_4 {
+	position: absolute;
+    bottom: 41px;
+    left: 180px;
+}
+
+.scalebassscore .a_string_position_5 {
+	position: absolute;
+    bottom: 41px;
+    left: 220px;
+}
+
+.scalebassscore .a_string_position_6 {
+	position: absolute;
+    bottom: 41px;
+    left: 260px;
+}
+
+.scalebassscore .d_string_position_1 {
+  position: absolute;
+  top: 32px;
+  left: 60px;
+}
+
+.scalebassscore .d_string_position_2 {
+  position: absolute;
+  top: 32px;
+  left: 100px;
+}
+
+.scalebassscore .d_string_position_3 {
+  position: absolute;
+  top: 32px;
+  left: 140px;
+}
+
+.scalebassscore .d_string_position_4 {
+  position: absolute;
+  top: 32px;
+  left: 180px;
+}
+
+.scalebassscore .d_string_position_5 {
+  position: absolute;
+  top: 32px;
+  left: 220px;
+}
+
+.scalebassscore .d_string_position_6 {
+  position: absolute;
+  top: 32px;
+  left: 260px;
+}
+
+.scalebassscore .d_string_position_7 {
+  position: absolute;
+  top: 32px;
+  left: 300px;
+}
+
+.scalebassscore .d_string_position_8 {
+  position: absolute;
+  top: 32px;
+  left: 340px;
+}
+
+.scalebassscore .g_string_position_1 {
+  position: absolute;
+  top: 7px;
+  left: 60px;
+}
+
+.scalebassscore .g_string_position_2 {
+  position: absolute;
+  top: 7px;
+  left: 100px;
+}
+
+.scalebassscore .g_string_position_3 {
+  position: absolute;
+  top: 7px;
+  left: 140px;
+}
+
+.scalebassscore .g_string_position_4 {
+  position: absolute;
+  top: 7px;
+  left: 180px;
+}
+
+.scalebassscore .g_string_position_5 {
+  position: absolute;
+  top: 7px;
+  left: 220px;
+}
+
+.scalebassscore .g_string_position_6 {
+  position: absolute;
+  top: 7px;
+  left: 260px;
+}
+
+.scalebassscore .g_string_position_7 {
+  position: absolute;
+  top: 7px;
+  left: 300px;
+}
+
+.scalebassscore .g_string_position_8 {
+  position: absolute;
+  top: 7px;
+  left: 340px;
+}
+
+.scalebassscore .another {
+  position: absolute;
+  bottom: 34px;
+  right: 140px;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

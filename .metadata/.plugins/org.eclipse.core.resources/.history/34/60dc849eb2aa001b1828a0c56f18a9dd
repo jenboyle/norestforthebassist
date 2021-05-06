@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+
+function playAlong (scaleName)
+{
+    alert('' + scaleName);
+    var maindrone = '../audio/drones/Cdrone8.mp3';
+    if (scaleName === 'cmajor'){
+    	maindrone = '../audio/drones/Cdrone8.mp3';
+    } else if (scaleName === 'dmajor'){
+    	maindrone = '../audio/drones/Ddrone30.mp3';
+    } else if (scaleName === 'emajor'){
+    	maindrone = '../audio/drones/Edrone8.mp3';
+    } else if (scaleName === 'fmajor'){
+    	maindrone = '../audio/drones/Fdrone30.mp3';
+    } else if (scaleName === 'gmajor'){
+    	maindrone = '../audio/drones/Gdrone8.mp3';
+    } else if (scaleName === 'amajor'){
+    	maindrone = '../audio/drones/Adrone30.mp3';
+    } else if (scaleName === 'bmajor'){
+    	maindrone = '../audio/drones/Bdrone8.mp3';
+    }
+    
+    var audioElement = new Audio(maindrone);
+    audioElement.play();
+}

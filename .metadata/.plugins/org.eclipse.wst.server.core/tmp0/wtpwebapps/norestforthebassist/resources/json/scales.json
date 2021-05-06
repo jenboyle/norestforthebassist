@@ -1,0 +1,376 @@
+scales = '{' +
+              '"cmajor" : {' +
+                  '"1": [' +
+                      '{ "note":"3" , "class":"a_string_position_1" },' +
+                      '{ "note":"0" , "class":"d_string_position_2" },' +
+                      '{ "note":"2" , "class":"d_string_position_3" },' +
+                      '{ "note":"3" , "class":"d_string_position_4" },' +
+                      '{ "note":"0" , "class":"g_string_position_5" },' +
+                      '{ "note":"2" , "class":"g_string_position_6" },' +
+                      '{ "note":"4" , "class":"g_string_position_7" },' +
+                      '{ "note":"5" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"2": [' +
+                      '{ "note":"3" , "class":"a_string_position_1" },' +
+                      '{ "note":"5" , "class":"a_string_position_2" },' +
+                      '{ "note":"2" , "class":"d_string_position_3" },' +
+                      '{ "note":"3" , "class":"d_string_position_4" },' +
+                      '{ "note":"5" , "class":"d_string_position_5" },' +
+                      '{ "note":"2" , "class":"g_string_position_6" },' +
+                      '{ "note":"4" , "class":"g_string_position_7" },' +
+                      '{ "note":"5" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"3": [' +
+                      '{ "note":"8" , "class":"e_string_position_1" },' +
+                      '{ "note":"10" , "class":"e_string_position_2" },' +
+                      '{ "note":"7" , "class":"a_string_position_3" },' +
+                      '{ "note":"8" , "class":"a_string_position_4" },' +
+                      '{ "note":"10" , "class":"a_string_position_5" },' +
+                      '{ "note":"7" , "class":"d_string_position_6" },' +
+                      '{ "note":"9" , "class":"d_string_position_7" },' +
+                      '{ "note":"10" , "class":"d_string_position_8" }' +
+                  ']' +
+                  ',"4": [' +
+                      '{ "note":"5" , "class":"g_string_position_1" },' +
+                      '{ "note":"7" , "class":"g_string_position_2" },' +
+                      '{ "note":"9" , "class":"g_string_position_3" },' +
+                      '{ "note":"10" , "class":"g_string_position_4" },' +
+                      '{ "note":"12" , "class":"g_string_position_5" },' +
+                      '{ "note":"14" , "class":"g_string_position_6" },' +
+                      '{ "note":"16" , "class":"g_string_position_7" },' +
+                      '{ "note":"17" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"5": [' +
+                      '{ "note":"10" , "class":"d_string_position_1" },' +
+                      '{ "note":"12" , "class":"d_string_position_2" },' +
+                      '{ "note":"9" , "class":"g_string_position_3" },' +
+                      '{ "note":"10" , "class":"g_string_position_4" },' +
+                      '{ "note":"12" , "class":"g_string_position_5" },' +
+                      '{ "note":"14" , "class":"g_string_position_6" },' +
+                      '{ "note":"16" , "class":"g_string_position_7" },' +
+                      '{ "note":"17" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"6": [' +
+                      '{ "note":"15" , "class":"a_string_position_1" },' +
+                      '{ "note":"17" , "class":"a_string_position_2" },' +
+                      '{ "note":"14" , "class":"d_string_position_3" },' +
+                      '{ "note":"15" , "class":"d_string_position_4" },' +
+                      '{ "note":"17" , "class":"d_string_position_5" },' +
+                      '{ "note":"14" , "class":"g_string_position_6" },' +
+                      '{ "note":"16" , "class":"g_string_position_7" },' +
+                      '{ "note":"17" , "class":"g_string_position_8" }' +
+                  ']' +
+              '},' +
+              '"dmajor" : {' +
+                  '"1": [' +
+                      '{ "note":"0" , "class":"d_string_position_1" },' +
+                      '{ "note":"2" , "class":"d_string_position_2" },' +
+                      '{ "note":"4" , "class":"d_string_position_3" },' +
+                      '{ "note":"0" , "class":"g_string_position_4" },' +
+                      '{ "note":"2" , "class":"g_string_position_5" },' +
+                      '{ "note":"4" , "class":"g_string_position_6" },' +
+                      '{ "note":"6" , "class":"g_string_position_7" },' +
+                      '{ "note":"7" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"2": [' +
+                      '{ "note":"5" , "class":"a_string_position_1" },' +
+                      '{ "note":"7" , "class":"a_string_position_2" },' +
+                      '{ "note":"4" , "class":"d_string_position_3" },' +
+                      '{ "note":"5" , "class":"d_string_position_4" },' +
+                      '{ "note":"7" , "class":"d_string_position_5" },' +
+                      '{ "note":"4" , "class":"g_string_position_6" },' +
+                      '{ "note":"6" , "class":"g_string_position_7" },' +
+                      '{ "note":"7" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"3": [' +
+                      '{ "note":"10" , "class":"e_string_position_1" },' +
+                      '{ "note":"12" , "class":"e_string_position_2" },' +
+                      '{ "note":"9" , "class":"a_string_position_3" },' +
+                      '{ "note":"10" , "class":"a_string_position_4" },' +
+                      '{ "note":"12" , "class":"a_string_position_5" },' +
+                      '{ "note":"9" , "class":"d_string_position_6" },' +
+                      '{ "note":"11" , "class":"d_string_position_7" },' +
+                      '{ "note":"12" , "class":"d_string_position_8" }' +
+                  ']' +
+                  ',"4": [' +
+                      '{ "note":"12" , "class":"d_string_position_1" },' +
+                      '{ "note":"14" , "class":"d_string_position_2" },' +
+                      '{ "note":"16" , "class":"d_string_position_3" },' +
+                      '{ "note":"12" , "class":"g_string_position_4" },' +
+                      '{ "note":"14" , "class":"g_string_position_5" },' +
+                      '{ "note":"16" , "class":"g_string_position_6" },' +
+                      '{ "note":"18" , "class":"g_string_position_7" },' +
+                      '{ "note":"19" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"5": [' +
+                      '{ "note":"17" , "class":"a_string_position_1" },' +
+                      '{ "note":"19" , "class":"a_string_position_2" },' +
+                      '{ "note":"16" , "class":"d_string_position_3" },' +
+                      '{ "note":"17" , "class":"d_string_position_4" },' +
+                      '{ "note":"19" , "class":"d_string_position_5" },' +
+                      '{ "note":"16" , "class":"g_string_position_6" },' +
+                      '{ "note":"18" , "class":"g_string_position_7" },' +
+                      '{ "note":"19" , "class":"g_string_position_8" }' +
+                  ']' +
+              '},' +
+              '"emajor" : {' +
+                  '"1": [' +
+                      '{ "note":"0" , "class":"e_string_position_1" },' +
+                      '{ "note":"2" , "class":"e_string_position_2" },' +
+                      '{ "note":"4" , "class":"e_string_position_3" },' +
+                      '{ "note":"0" , "class":"a_string_position_4" },' +
+                      '{ "note":"2" , "class":"a_string_position_5" },' +
+                      '{ "note":"4" , "class":"a_string_position_6" },' +
+                      '{ "note":"1" , "class":"g_string_position_7" },' +
+                      '{ "note":"2" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"2": [' +
+                      '{ "note":"2" , "class":"d_string_position_1" },' +
+                      '{ "note":"4" , "class":"d_string_position_2" },' +
+                      '{ "note":"6" , "class":"d_string_position_3" },' +
+                      '{ "note":"2" , "class":"g_string_position_4" },' +
+                      '{ "note":"4" , "class":"g_string_position_5" },' +
+                      '{ "note":"6" , "class":"g_string_position_6" },' +
+                      '{ "note":"8" , "class":"g_string_position_7" },' +
+                      '{ "note":"9" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"3": [' +
+                      '{ "note":"7" , "class":"a_string_position_1" },' +
+                      '{ "note":"9" , "class":"a_string_position_2" },' +
+                      '{ "note":"6" , "class":"d_string_position_3" },' +
+                      '{ "note":"7" , "class":"d_string_position_4" },' +
+                      '{ "note":"9" , "class":"d_string_position_5" },' +
+                      '{ "note":"6" , "class":"g_string_position_6" },' +
+                      '{ "note":"8" , "class":"g_string_position_7" },' +
+                      '{ "note":"9" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"4": [' +
+                      '{ "note":"12" , "class":"e_string_position_1" },' +
+                      '{ "note":"14" , "class":"e_string_position_2" },' +
+                      '{ "note":"11" , "class":"a_string_position_3" },' +
+                      '{ "note":"12" , "class":"a_string_position_4" },' +
+                      '{ "note":"14" , "class":"a_string_position_5" },' +
+                      '{ "note":"11" , "class":"d_string_position_6" },' +
+                      '{ "note":"13" , "class":"d_string_position_7" },' +
+                      '{ "note":"14" , "class":"d_string_position_8" }' +
+                  ']' +
+                  ',"5": [' +
+                      '{ "note":"14" , "class":"d_string_position_1" },' +
+                      '{ "note":"16" , "class":"d_string_position_2" },' +
+                      '{ "note":"18" , "class":"d_string_position_3" },' +
+                      '{ "note":"14" , "class":"g_string_position_4" },' +
+                      '{ "note":"16" , "class":"g_string_position_5" },' +
+                      '{ "note":"18" , "class":"g_string_position_6" },' +
+                      '{ "note":"20" , "class":"g_string_position_7" },' +
+                      '{ "note":"21" , "class":"g_string_position_8" }' +
+                  ']' +
+              '},' +
+              '"fmajor" : {' +
+                  '"1": [' +
+                      '{ "note":"1" , "class":"e_string_position_1" },' +
+                      '{ "note":"3" , "class":"e_string_position_2" },' +
+                      '{ "note":"0" , "class":"a_string_position_3" },' +
+                      '{ "note":"1" , "class":"a_string_position_4" },' +
+                      '{ "note":"3" , "class":"a_string_position_5" },' +
+                      '{ "note":"0" , "class":"d_string_position_6" },' +
+                      '{ "note":"2" , "class":"d_string_position_7" },' +
+                      '{ "note":"3" , "class":"d_string_position_8" }' +
+                  ']' +
+                  ',"2": [' +
+                      '{ "note":"3" , "class":"d_string_position_1" },' +
+                      '{ "note":"5" , "class":"d_string_position_2" },' +
+                      '{ "note":"2" , "class":"g_string_position_3" },' +
+                      '{ "note":"3" , "class":"g_string_position_4" },' +
+                      '{ "note":"5" , "class":"g_string_position_5" },' +
+                      '{ "note":"7" , "class":"g_string_position_6" },' +
+                      '{ "note":"9" , "class":"g_string_position_7" },' +
+                      '{ "note":"10" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"3": [' +
+                      '{ "note":"8" , "class":"a_string_position_1" },' +
+                      '{ "note":"10" , "class":"a_string_position_2" },' +
+                      '{ "note":"7" , "class":"d_string_position_3" },' +
+                      '{ "note":"8" , "class":"d_string_position_4" },' +
+                      '{ "note":"10" , "class":"d_string_position_5" },' +
+                      '{ "note":"7" , "class":"g_string_position_6" },' +
+                      '{ "note":"9" , "class":"g_string_position_7" },' +
+                      '{ "note":"10" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"4": [' +
+                      '{ "note":"13" , "class":"e_string_position_1" },' +
+                      '{ "note":"15" , "class":"e_string_position_2" },' +
+                      '{ "note":"12" , "class":"a_string_position_3" },' +
+                      '{ "note":"13" , "class":"a_string_position_4" },' +
+                      '{ "note":"15" , "class":"a_string_position_5" },' +
+                      '{ "note":"12" , "class":"d_string_position_6" },' +
+                      '{ "note":"14" , "class":"d_string_position_7" },' +
+                      '{ "note":"15" , "class":"d_string_position_8" }' +
+                  ']' +
+                  ',"5": [' +
+                      '{ "note":"15" , "class":"d_string_position_1" },' +
+                      '{ "note":"17" , "class":"d_string_position_2" },' +
+                      '{ "note":"14" , "class":"g_string_position_3" },' +
+                      '{ "note":"15" , "class":"g_string_position_4" },' +
+                      '{ "note":"17" , "class":"g_string_position_5" },' +
+                      '{ "note":"19" , "class":"g_string_position_6" },' +
+                      '{ "note":"21" , "class":"g_string_position_7" },' +
+                      '{ "note":"22" , "class":"g_string_position_8" }' +
+                  ']' +
+              '},' +
+              '"gmajor" : {' +
+                  '"1": [' +
+                      '{ "note":"3" , "class":"e_string_position_1" },' +
+                      '{ "note":"5" , "class":"e_string_position_2" },' +
+                      '{ "note":"2" , "class":"a_string_position_3" },' +
+                      '{ "note":"3" , "class":"a_string_position_4" },' +
+                      '{ "note":"5" , "class":"a_string_position_5" },' +
+                      '{ "note":"2" , "class":"d_string_position_6" },' +
+                      '{ "note":"4" , "class":"d_string_position_7" },' +
+                      '{ "note":"5" , "class":"d_string_position_8" }' +
+                  ']' +
+                  ',"2": [' +
+                      '{ "note":"0" , "class":"g_string_position_1" },' +
+                      '{ "note":"2" , "class":"g_string_position_2" },' +
+                      '{ "note":"4" , "class":"g_string_position_3" },' +
+                      '{ "note":"5" , "class":"g_string_position_4" },' +
+                      '{ "note":"7" , "class":"g_string_position_5" },' +
+                      '{ "note":"9" , "class":"g_string_position_6" },' +
+                      '{ "note":"11" , "class":"g_string_position_7" },' +
+                      '{ "note":"12" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"3": [' +
+                      '{ "note":"5" , "class":"d_string_position_1" },' +
+                      '{ "note":"7" , "class":"d_string_position_2" },' +
+                      '{ "note":"4" , "class":"g_string_position_3" },' +
+                      '{ "note":"5" , "class":"g_string_position_4" },' +
+                      '{ "note":"7" , "class":"g_string_position_5" },' +
+                      '{ "note":"9" , "class":"g_string_position_6" },' +
+                      '{ "note":"11" , "class":"g_string_position_7" },' +
+                      '{ "note":"12" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"4": [' +
+                      '{ "note":"10" , "class":"a_string_position_1" },' +
+                      '{ "note":"12" , "class":"a_string_position_2" },' +
+                      '{ "note":"9" , "class":"d_string_position_3" },' +
+                      '{ "note":"10" , "class":"d_string_position_4" },' +
+                      '{ "note":"12" , "class":"d_string_position_5" },' +
+                      '{ "note":"9" , "class":"g_string_position_6" },' +
+                      '{ "note":"11" , "class":"g_string_position_7" },' +
+                      '{ "note":"12" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"5": [' +
+                      '{ "note":"15" , "class":"e_string_position_1" },' +
+                      '{ "note":"17" , "class":"e_string_position_2" },' +
+                      '{ "note":"14" , "class":"a_string_position_3" },' +
+                      '{ "note":"15" , "class":"a_string_position_4" },' +
+                      '{ "note":"17" , "class":"a_string_position_5" },' +
+                      '{ "note":"14" , "class":"d_string_position_6" },' +
+                      '{ "note":"16" , "class":"d_string_position_7" },' +
+                      '{ "note":"17" , "class":"d_string_position_8" }' +
+                  ']' +
+              '},' +
+              '"amajor" : {' +
+                  '"1": [' +
+                      '{ "note":"0" , "class":"a_string_position_1" },' +
+                      '{ "note":"2" , "class":"a_string_position_2" },' +
+                      '{ "note":"4" , "class":"a_string_position_3" },' +
+                      '{ "note":"0" , "class":"d_string_position_4" },' +
+                      '{ "note":"2" , "class":"d_string_position_5" },' +
+                      '{ "note":"4" , "class":"d_string_position_6" },' +
+                      '{ "note":"1" , "class":"g_string_position_7" },' +
+                      '{ "note":"2" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"2": [' +
+                      '{ "note":"5" , "class":"e_string_position_1" },' +
+                      '{ "note":"7" , "class":"e_string_position_2" },' +
+                      '{ "note":"4" , "class":"a_string_position_3" },' +
+                      '{ "note":"5" , "class":"a_string_position_4" },' +
+                      '{ "note":"7" , "class":"a_string_position_5" },' +
+                      '{ "note":"4" , "class":"d_string_position_6" },' +
+                      '{ "note":"6" , "class":"d_string_position_7" },' +
+                      '{ "note":"7" , "class":"d_string_position_8" }' +
+                  ']' +
+                  ',"3": [' +
+                      '{ "note":"7" , "class":"d_string_position_1" },' +
+                      '{ "note":"9" , "class":"d_string_position_2" },' +
+                      '{ "note":"6" , "class":"g_string_position_3" },' +
+                      '{ "note":"7" , "class":"g_string_position_4" },' +
+                      '{ "note":"9" , "class":"g_string_position_5" },' +
+                      '{ "note":"11" , "class":"g_string_position_6" },' +
+                      '{ "note":"13" , "class":"g_string_position_7" },' +
+                      '{ "note":"14" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"4": [' +
+                      '{ "note":"12" , "class":"a_string_position_1" },' +
+                      '{ "note":"14" , "class":"a_string_position_2" },' +
+                      '{ "note":"11" , "class":"d_string_position_3" },' +
+                      '{ "note":"12" , "class":"d_string_position_4" },' +
+                      '{ "note":"14" , "class":"d_string_position_5" },' +
+                      '{ "note":"11" , "class":"g_string_position_6" },' +
+                      '{ "note":"13" , "class":"g_string_position_7" },' +
+                      '{ "note":"14" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"5": [' +
+                      '{ "note":"17" , "class":"e_string_position_1" },' +
+                      '{ "note":"19" , "class":"e_string_position_2" },' +
+                      '{ "note":"16" , "class":"a_string_position_3" },' +
+                      '{ "note":"17" , "class":"a_string_position_4" },' +
+                      '{ "note":"19" , "class":"a_string_position_5" },' +
+                      '{ "note":"16" , "class":"d_string_position_6" },' +
+                      '{ "note":"18" , "class":"d_string_position_7" },' +
+                      '{ "note":"19" , "class":"d_string_position_8" }' +
+                  ']' +
+              '},' +
+              '"bmajor" : {' +
+                  '"1": [' +
+                      '{ "note":"2" , "class":"a_string_position_1" },' +
+                      '{ "note":"4" , "class":"a_string_position_2" },' +
+                      '{ "note":"1" , "class":"d_string_position_3" },' +
+                      '{ "note":"2" , "class":"d_string_position_4" },' +
+                      '{ "note":"4" , "class":"d_string_position_5" },' +
+                      '{ "note":"1" , "class":"g_string_position_6" },' +
+                      '{ "note":"3" , "class":"g_string_position_7" },' +
+                      '{ "note":"4" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"2": [' +
+                      '{ "note":"7" , "class":"e_string_position_1" },' +
+                      '{ "note":"9" , "class":"e_string_position_2" },' +
+                      '{ "note":"6" , "class":"a_string_position_3" },' +
+                      '{ "note":"7" , "class":"a_string_position_4" },' +
+                      '{ "note":"9" , "class":"a_string_position_5" },' +
+                      '{ "note":"6" , "class":"d_string_position_6" },' +
+                      '{ "note":"8" , "class":"d_string_position_7" },' +
+                      '{ "note":"9" , "class":"d_string_position_8" }' +
+                  ']' +
+                  ',"3": [' +
+                      '{ "note":"4" , "class":"g_string_position_1" },' +
+                      '{ "note":"6" , "class":"g_string_position_2" },' +
+                      '{ "note":"8" , "class":"g_string_position_3" },' +
+                      '{ "note":"9" , "class":"g_string_position_4" },' +
+                      '{ "note":"11" , "class":"g_string_position_5" },' +
+                      '{ "note":"13" , "class":"g_string_position_6" },' +
+                      '{ "note":"15" , "class":"g_string_position_7" },' +
+                      '{ "note":"16" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"4": [' +
+                      '{ "note":"9" , "class":"d_string_position_1" },' +
+                      '{ "note":"11" , "class":"d_string_position_2" },' +
+                      '{ "note":"8" , "class":"g_string_position_3" },' +
+                      '{ "note":"9" , "class":"g_string_position_4" },' +
+                      '{ "note":"11" , "class":"g_string_position_5" },' +
+                      '{ "note":"13" , "class":"g_string_position_6" },' +
+                      '{ "note":"15" , "class":"g_string_position_7" },' +
+                      '{ "note":"16" , "class":"g_string_position_8" }' +
+                  ']' +
+                  ',"5": [' +
+                      '{ "note":"14" , "class":"a_string_position_1" },' +
+                      '{ "note":"16" , "class":"a_string_position_2" },' +
+                      '{ "note":"13" , "class":"d_string_position_3" },' +
+                      '{ "note":"14" , "class":"d_string_position_4" },' +
+                      '{ "note":"16" , "class":"d_string_position_5" },' +
+                      '{ "note":"14" , "class":"g_string_position_6" },' +
+                      '{ "note":"15" , "class":"g_string_position_7" },' +
+                      '{ "note":"16" , "class":"g_string_position_8" }' +
+                  ']' +
+              '}' +
+         '}';

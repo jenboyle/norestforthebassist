@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:00:01:40 +0100] "GET /norestforthebassist/cmajor.jsp HTTP/1.1" 200 3056
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:00:01:40 +0100] "GET /norestforthebassist/resources/css/main.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:00:01:40 +0100] "GET /norestforthebassist/resources/json/scales.json HTTP/1.1" 200 3971
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:00:01:40 +0100] "GET /norestforthebassist/resources/js/differentscales.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:00:02:20 +0100] "GET /norestforthebassist/cmajor.jsp HTTP/1.1" 200 3056
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:00:02:20 +0100] "GET /norestforthebassist/resources/css/main.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:00:02:20 +0100] "GET /norestforthebassist/resources/json/scales.json HTTP/1.1" 200 3971
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:00:02:20 +0100] "GET /norestforthebassist/resources/js/differentscales.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:00:02:20 +0100] "GET /norestforthebassist/resources/js/differentscales.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:00:02:20 +0100] "GET /norestforthebassist/resources/css/main.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:00:02:20 +0100] "GET /norestforthebassist/resources/json/scales.json HTTP/1.1" 200 3971
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:00:02:22 +0100] "GET /norestforthebassist/resources/audio/drones/C_bass_drone.mp3 HTTP/1.1" 206 2
+0:0:0:0:0:0:0:1 - - [13/Apr/2021:00:02:22 +0100] "GET /norestforthebassist/resources/audio/drones/C_bass_drone.mp3 HTTP/1.1" 206 188067

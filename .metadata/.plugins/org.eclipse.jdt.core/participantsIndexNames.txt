@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+/Users/jen/jenbass/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2325195580.index
+/norestforthebassist/src/main/java
+/Users/jen/jenbass/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3411285492.index
+/bassbrain/src/main/java
+/Users/jen/jenbass/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1846403248.index
+/norestforthebassist/src/main/java

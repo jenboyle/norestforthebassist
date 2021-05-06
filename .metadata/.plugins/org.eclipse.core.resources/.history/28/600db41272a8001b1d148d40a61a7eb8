@@ -1,0 +1,65 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="resources/css/main.css" rel="stylesheet">
+<title>No Rest For The Bassist</title>
+</head>
+<body>
+<form action="playalong.jsp">
+  <input type="hidden" name="scalename" value="cmajor" />
+  <input type="hidden" name="title" value="C Major Scale" />
+  <input type="hidden" name="id" value="1" />
+  function changeParameter (objParameter, objSelect)
+    {
+        var objHidden = document.getElementById(objParameter);
+        objHidden.value = objSelect.value; 
+    }
+    <h1>No Rest For The Bassist</h1>
+    <table>
+        <tr>
+            <td style = "width: 160px;">
+                <jsp:include page="sidebar.html" flush="true"/>
+            </td>
+            <td style = "vertical-align: top" colspan="2">
+                <h2>Improvise Play Along</h2>
+            </td>
+            </tr>
+            <tr>
+                <td/>
+                <td>Scale:</td>
+                <td>
+                <select name="improvise_scale" id="improvise_scale" onchange="changeParameter(scalename, this)">
+                    <option value="cmajor" selected>C major</option>
+  					<option value="dmajor">D major</option>
+  					<option value="emajor">E major</option>
+  					<option value="fmajor">F major</option>
+  					<option value="gmajor">G major</option>
+  					<option value="amajor">A major</option>
+  					<option value="bmajor">B major</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+			    <td/>
+			    <td>Chord Progression Pattern:</td>
+				<td>
+				<select name="improvise_pattern" id="improvise_pattern">
+                    <option value="1|4|5" selected>1 4 5</option>
+  					<option value="1|5|6|4">1 5 6 4</option>
+  					<option value="2|5|1">2 5 1</option>
+				</select>
+            </td>
+        </tr>
+        <tr>
+        <td/>
+        <td>
+          <input type = "submit" value = "Play Along" />
+        </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

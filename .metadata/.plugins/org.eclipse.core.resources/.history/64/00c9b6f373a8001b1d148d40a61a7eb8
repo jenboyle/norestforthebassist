@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+
+function changeParameter (objParameter, objSelect)
+    {
+        var objHidden = document.getElementById(objParameter);
+        objHidden.value = objSelect.value; 
+    }

@@ -1,0 +1,99 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@page import="java.sql.*" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="resources/css/main.css" rel="stylesheet">
+<script src="resources/js/findmykey.js"></script>
+<title>No Rest For The Bassist</title>
+</head>
+<body>
+<form action="keyfinder.jsp">
+    <h1>No Rest For The Bassist</h1>
+    <table>
+        <tr>
+            <td style = "width: 160px;">
+                <jsp:include page="sidebar.html" flush="true"/>
+            </td>
+            <td style = "vertical-align: top">
+                <h2>Key Finder</h2>
+                <table>
+                    <tr>
+                        <td style = "width: 160px;">
+                            Notes Hear:
+                        </td>
+                        <td style = "width: 160px;">
+                            <select name="noteheard1" id="noteheard1">
+                                <option value="Cnat" selected>Note</option>
+  								<option value="Cnat">C</option>
+  								<option value="Csharp">C#/D♭</option>
+  								<option value="Dnat">D</option>
+  								<option value="Dsharp">D#/E♭</option>
+  								<option value="Enat">E</option>
+  								<option value="Fnat">F</option>
+  								<option value="Fsharp">F#/G♭</option>
+  								<option value="Gnat">G</option>
+  								<option value="Gsharp">G#/A♭</option>
+  								<option value="Anat">A</option>
+  								<option value="Asharp">A#/B♭</option>
+  								<option value="Bnat">B</option>
+							</select>
+							<!--  <input type="hidden" id="selectednote" name="selectednote" value="">-->
+                        </td>
+                    </tr>
+                    <tr>
+                    <td>
+                    Find my Key
+                    </td>
+                    <td>
+                     <input type = "submit" value = "GO" />
+                    </td>
+                    </tr>
+                    <tr>
+                    <%
+                    String reqnote = request.getParameter("notes");
+                    System.out.println("reqnote =" +reqnote);
+                    String note = "Cnat";
+                    if(!reqnote.equals(null)){
+                        System.out.println("not null");
+                        note = reqnote;
+                    }
+                    System.out.println("note =" +note);
+Class.forName("com.mysql.cj.jdbc.Driver");
+Connection conn = DriverManager.getConnection(
+    "jdbc:mysql://localhost:3306/norestforthebassist", "root", "Ilike2playbass$");
+Statement stmt = conn.createStatement();
+ResultSet rsNotes = stmt.executeQuery("select key_name from notes where all_notes like '%" + note+"%'");
+ResultSetMetaData resMetaData = rsNotes.getMetaData();
+int nCols = resMetaData.getColumnCount();
+%>
+                      <td style = "width: 160px;">
+                           Scales it could be:
+                       </td>
+                       <td style = "width: 160px;">
+                           <div id="scalesitcouldbe">
+                           <%
+                           while(rsNotes.next()) {
+                        	   //out.print(""+nCols);
+                        	   out.print(rsNotes.getString("key_name"));
+                        	   if(!rsNotes.isLast()){
+                        		   out.print(", ");
+                        	   }
+                        	   //for (int kCol=1; kCol < nCols; kCol++){
+                        	//	        out.print("kCol" +kCol);
+                        	//		   	out.print(rsNotes.getString(kCol));
+                        	//		   }
+                           }%>
+                        			   </div>
+                       </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    </form>
+</body>
+</html>
